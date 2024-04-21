@@ -1,0 +1,78 @@
+:root {
+    --text-white: #ffffff;
+    --text-black: #000000;
+    --text-grey: #6f6f75;
+    --text-darkgrey: #343436;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: var(--text-white);
+}
+
+.header {
+    font-family: monospace;
+    font-size: 18px;
+    color: var(--text-white);
+    background-color: var(--text-grey);
+}
+
+.upper-header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 18px;
+    flex: 1 1 0px;
+}
+
+.upper-header > div {
+    width: 100%
+}
+
+.upper-header > div:last-child {
+    text-align: end;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-black);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lower-header > a {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--text-darkgrey);
+    transition: all 0.3s;
+    border-bottom: 1% solid var(--text-darkgrey);
+}
+
+.lower-header > a:hover{
+    background-color: var(--text-grey);
+    color: var(--text-white);
+    font-weight: 700;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
