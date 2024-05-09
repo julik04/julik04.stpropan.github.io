@@ -1,25 +1,88 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Slider from "./components/Slider";
+import Cont from "./components/Cont";
+import Prof from "./components/Prof";
+import Works from "./components/Works";
+import Footer from "./components/Footer";
+import AboutStudio from "./components/AboutStudio";
+import Workshop from "./components/Workshop";
+import TableMast from "./components/TableMast";
+import Reviews from "./components/Reviews";
+import FAQ from "./components/FAQ";
+import Form from "./components/Form";
 
-function App() {
+
+export function MainPage() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header />
+      <main>
+        <Cont />
+        <Slider />
+        <Prof />
+        <Works />
+      </main>
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export function StudioPage() {
+  return (
+    <>
+      <Header />
+      <main>
+        <AboutStudio />
+        <Workshop />
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+export function MastersPage() {
+  return (
+    <>
+      <Header />
+      <main>
+        <TableMast />
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+export function ReviewsPage() {
+  return (
+    <>
+      <Header />
+      <main>
+        <Reviews />
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+export function FAQPage() {
+  return (
+    <>
+      <Header />
+      <main>
+        <FAQ />
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+export function FormPage() {
+  return (
+    <>
+      <main>
+        <Form />
+      </main>
+    </>
+  )
+}

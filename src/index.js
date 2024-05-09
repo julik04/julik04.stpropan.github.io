@@ -1,13 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import { MainPage, StudioPage, ReviewsPage, FAQPage, MastersPage, FormPage } from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainPage />,
+  },
+  {
+    path: "/studio",
+    element: <StudioPage />,
+  },
+  {
+    path: "/masters",
+    element: <MastersPage />,
+  },
+  {
+    path: "/reviews",
+    element: <ReviewsPage />,
+  },
+  {
+    path: "/faq",
+    element: <FAQPage />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
