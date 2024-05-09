@@ -38,7 +38,6 @@ function Header () {
             </g>
           </svg>
           </Link>
-<<<<<<< HEAD
           <div className="header-text-bl">Black Lotus Tattoo</div>
         </div>
         <div className="right-header">
@@ -46,13 +45,6 @@ function Header () {
           <button className='book-btn' onClick={() => setModalActive(true)}>Записаться</button>
         </div>
         <Form active = {modalActive} setActive = {setModalActive}/>
-=======
-          <div>Black Lotus Tattoo</div>
-        </div>
-        <div>
-          <a href="tel:+7(888)777-75-55">+7 (888) 777-75-55</a>
-        </div>
->>>>>>> main
       </div>
       <nav className="lower-header">
         <Link to="/studio">Студия</Link>
