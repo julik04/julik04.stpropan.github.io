@@ -9,14 +9,21 @@
 
 * {
     margin: 0;
+<<<<<<< HEAD
+=======
+    padding: 0;
+>>>>>>> main
     box-sizing: border-box;
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 img{
     max-width: 100%;
   } 
 
+=======
+>>>>>>> main
 body {
     font-family: 'Harmonia Sans Pro Cyr';
 }
@@ -49,12 +56,20 @@ a {
     color: var(--text-white);
 }
 
+<<<<<<< HEAD
 
 /* container */
 
 .container {
     max-width: 1350px;
     padding: 40px 10px;
+=======
+/* container */
+
+.container {
+    width: 1350px;
+    padding: 40px 0px;
+>>>>>>> main
     margin: auto;
 }
 
@@ -95,6 +110,7 @@ a {
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 .right-header {
     display: flex;
     flex-direction: column;
@@ -130,6 +146,8 @@ a {
     outline: 0;
 }
 
+=======
+>>>>>>> main
 .lower-header {
     display: flex;
     justify-content: space-around;
@@ -182,7 +200,13 @@ a {
 .images_panels {
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     justify-content: space-around;
+=======
+    justify-content: space-between;
+    margin-left: 170px;
+    width: 1000px;
+>>>>>>> main
     padding-bottom: 20px;
 }
 
@@ -211,15 +235,22 @@ a {
 
 .skills_skills {
     height: 380px;
+<<<<<<< HEAD
+=======
+    margin: 90px 0px 50px 545px;
+>>>>>>> main
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+<<<<<<< HEAD
     position: absolute;
     max-width: 800px;
     top: 100px;
     right: 100px;
+=======
+>>>>>>> main
 }
 
 .skills_small {
@@ -233,11 +264,9 @@ a {
     line-height: 26px;
     font-size: 18px;
 }
-
 .skills_text {
     text-align: center;
 }
-
 .skills_panels {
     width: 805px;
     padding: 0px 80px;
@@ -253,8 +282,13 @@ a {
 /* works */
 
 .works_gallery {
+<<<<<<< HEAD
     display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+=======
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+>>>>>>> main
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 15px;
 }
@@ -266,10 +300,15 @@ a {
 }
 
 .our_works {
+<<<<<<< HEAD
+=======
+    padding: 60px 0px 60px;
+>>>>>>> main
     background-color: var(--text-grey);
 }
 
 .works_para {
+<<<<<<< HEAD
     margin: 0px 200px 50px;
     font-size: 24px;
     font-weight: 300;
@@ -278,6 +317,17 @@ a {
 
 .works_heading {
     text-align: center; 
+=======
+    text-align: center;
+    margin: 0px 200px 50px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.works_heading {
+    text-align: center;
+    padding-bottom: 20px;
+>>>>>>> main
     font-size: 40px;
 }
 
@@ -294,7 +344,10 @@ a {
 
 .studio_columns {
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
+=======
+>>>>>>> main
     flex-direction: row;
     justify-content: space-around;
 }
@@ -358,17 +411,34 @@ a {
     padding: 20px 0px;
 }
 
+<<<<<<< HEAD
 .table_panels {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 20px ;
     flex-wrap: wrap;
+=======
+.table_panels_r1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.table_panels_r2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+>>>>>>> main
 }
 
 .table_panel {
     width: fit-content;
+<<<<<<< HEAD
     padding-bottom: 20px;
+=======
+>>>>>>> main
 }
 
 .table_names {
@@ -377,7 +447,13 @@ a {
 }
 
 .table_images {
+<<<<<<< HEAD
     height: 30vh;
+=======
+    width: auto;
+    height: 350px;
+    mix-blend-mode: multiply;
+>>>>>>> main
 }
 
 .table_images:hover {
@@ -442,7 +518,11 @@ a {
 /* FAQ */
 
 .faq_container {
+<<<<<<< HEAD
     margin: 0 20px;
+=======
+    margin: 0 200px;
+>>>>>>> main
 }
 
 .all_faq {
@@ -468,7 +548,11 @@ a {
 
 .faq_par {
     text-align: center;
+<<<<<<< HEAD
     margin: 40px 0 0;
+=======
+    margin: 20px 250px 40px;
+>>>>>>> main
     letter-spacing: 2px;
 }
 
@@ -477,7 +561,11 @@ a {
 }
 
 .faq_outro {
+<<<<<<< HEAD
     margin: 40px 0 0;
+=======
+    margin: 40px 250px 20px;
+>>>>>>> main
     text-align: center;
     letter-spacing: 2px;
 }
@@ -524,6 +612,7 @@ h5.black_lotus {
 }
 
 .copyright {
+<<<<<<< HEAD
     width: fit-content;
 }
 
@@ -914,4 +1003,8 @@ input {
     .footer_content {
         justify-content: center;
     }
+=======
+    
+    width: fit-content;
+>>>>>>> main
 }
