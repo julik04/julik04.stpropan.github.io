@@ -48,7 +48,10 @@
   position: absolute;
   text-align: center;
   top: 40%;
+<<<<<<< HEAD
+=======
   z-index: 10;
+>>>>>>> main
 }
 
 .slide-text {
@@ -105,4 +108,14 @@
 .active-dot,
 .dot:hover {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 576px){
+  h1, h2 {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+  .slide-text {
+    font-size: 18px;
+  }
 }

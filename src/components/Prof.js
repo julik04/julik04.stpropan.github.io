@@ -7,11 +7,8 @@ function Prof (){
             <div className="container">
                 <img className="skills_instr" src={apparat} alt="apparat"
                 style={{
-                    height: "520px",
-                    width: "1350px",
+                    width: "100vw",
                     objectFit: "cover",
-                    position: "absolute",
-                    zIndex: 10,
                 }}>
                 </img>
                 <div className="about_skills">

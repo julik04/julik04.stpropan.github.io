@@ -21,7 +21,7 @@ function TableMast () {
                 <p className="subheading_masters">
                     Опытные мастера. Креативное мышление.
                 </p>
-                    <div className="table_panels_r1">
+                    <div className="table_panels">
                         <div className="table_panel">
                             <img src={mas1} alt="table_images1" className="table_images" />
                             <p className="table_names">
@@ -58,8 +58,6 @@ function TableMast () {
                                 Стаж более 2 лет
                             </p>
                         </div>
-                    </div>
-                    <div className="table_panels_r2">
                         <div className="table_panel">
                             <img src={mas5} alt="table_images5" className="table_images" />
                             <p className="table_names">

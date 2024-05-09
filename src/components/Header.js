@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import Form from './Form.js'
+import { useState } from "react";
 
 function Header () {
+  const [modalActive, setModalActive] = useState(true)
   return (
     <header className="header">
       <div className="upper-header container">
-        <div>
+        <div className="header-text-address">
           Ул. 2-я Советская, 12 <br />
           Метро Восстания
         </div>
@@ -35,11 +38,21 @@ function Header () {
             </g>
           </svg>
           </Link>
+<<<<<<< HEAD
+          <div className="header-text-bl">Black Lotus Tattoo</div>
+        </div>
+        <div className="right-header">
+          <a className='telefon' href="tel:+7(888)777-75-55">+7 (888) 777-75-55</a>
+          <button className='book-btn' onClick={() => setModalActive(true)}>Записаться</button>
+        </div>
+        <Form active = {modalActive} setActive = {setModalActive}/>
+=======
           <div>Black Lotus Tattoo</div>
         </div>
         <div>
           <a href="tel:+7(888)777-75-55">+7 (888) 777-75-55</a>
         </div>
+>>>>>>> main
       </div>
       <nav className="lower-header">
         <Link to="/studio">Студия</Link>

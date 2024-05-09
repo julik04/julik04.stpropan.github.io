@@ -10,7 +10,7 @@ import Workshop from "./components/Workshop";
 import TableMast from "./components/TableMast";
 import Reviews from "./components/Reviews";
 import FAQ from "./components/FAQ";
-
+import Form from "./components/Form";
 
 
 export function MainPage() {
@@ -18,8 +18,8 @@ export function MainPage() {
     <>
       <Header />
       <main>
-        <Slider />
         <Cont />
+        <Slider />
         <Prof />
         <Works />
       </main>
@@ -73,6 +73,16 @@ export function FAQPage() {
         <FAQ />
       </main>
       <Footer />
+    </>
+  )
+}
+
+export function FormPage() {
+  return (
+    <>
+      <main>
+        <Form />
+      </main>
     </>
   )
 }

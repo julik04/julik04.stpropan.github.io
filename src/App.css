@@ -9,11 +9,21 @@
 
 * {
     margin: 0;
+<<<<<<< HEAD
+=======
     padding: 0;
+>>>>>>> main
     box-sizing: border-box;
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+img{
+    max-width: 100%;
+  } 
+
+=======
+>>>>>>> main
 body {
     font-family: 'Harmonia Sans Pro Cyr';
 }
@@ -46,11 +56,20 @@ a {
     color: var(--text-white);
 }
 
+<<<<<<< HEAD
+
+/* container */
+
+.container {
+    max-width: 1350px;
+    padding: 40px 10px;
+=======
 /* container */
 
 .container {
     width: 1350px;
     padding: 40px 0px;
+>>>>>>> main
     margin: auto;
 }
 
@@ -91,6 +110,44 @@ a {
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
+.right-header {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.book-btn {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+
+    background: var(--text-darkgrey);
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 
+    inset 0px 0.5px 0.5px rgba(62, 56, 56, 0.5), 
+    0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    color: #DFDEDF;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 10px;
+}
+
+.book-btn:focus {
+    box-shadow: inset 0px 0.8px 0px -0.25px 
+    rgba(62, 56, 56, 0.5) 
+    rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px 
+    rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+
+=======
+>>>>>>> main
 .lower-header {
     display: flex;
     justify-content: space-around;
@@ -143,9 +200,13 @@ a {
 .images_panels {
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
+    justify-content: space-around;
+=======
     justify-content: space-between;
     margin-left: 170px;
     width: 1000px;
+>>>>>>> main
     padding-bottom: 20px;
 }
 
@@ -174,12 +235,22 @@ a {
 
 .skills_skills {
     height: 380px;
+<<<<<<< HEAD
+=======
     margin: 90px 0px 50px 545px;
+>>>>>>> main
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+<<<<<<< HEAD
+    position: absolute;
+    max-width: 800px;
+    top: 100px;
+    right: 100px;
+=======
+>>>>>>> main
 }
 
 .skills_small {
@@ -193,7 +264,9 @@ a {
     line-height: 26px;
     font-size: 18px;
 }
-
+.skills_text {
+    text-align: center;
+}
 .skills_panels {
     width: 805px;
     padding: 0px 80px;
@@ -209,8 +282,13 @@ a {
 /* works */
 
 .works_gallery {
+<<<<<<< HEAD
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+=======
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+>>>>>>> main
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 15px;
 }
@@ -222,11 +300,24 @@ a {
 }
 
 .our_works {
+<<<<<<< HEAD
+=======
     padding: 60px 0px 60px;
+>>>>>>> main
     background-color: var(--text-grey);
 }
 
 .works_para {
+<<<<<<< HEAD
+    margin: 0px 200px 50px;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.works_heading {
+    text-align: center; 
+=======
     text-align: center;
     margin: 0px 200px 50px;
     font-size: 24px;
@@ -236,6 +327,7 @@ a {
 .works_heading {
     text-align: center;
     padding-bottom: 20px;
+>>>>>>> main
     font-size: 40px;
 }
 
@@ -252,6 +344,10 @@ a {
 
 .studio_columns {
     display: flex;
+<<<<<<< HEAD
+    flex-wrap: wrap;
+=======
+>>>>>>> main
     flex-direction: row;
     justify-content: space-around;
 }
@@ -315,6 +411,14 @@ a {
     padding: 20px 0px;
 }
 
+<<<<<<< HEAD
+.table_panels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px ;
+    flex-wrap: wrap;
+=======
 .table_panels_r1 {
     display: flex;
     flex-direction: row;
@@ -326,10 +430,15 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+>>>>>>> main
 }
 
 .table_panel {
     width: fit-content;
+<<<<<<< HEAD
+    padding-bottom: 20px;
+=======
+>>>>>>> main
 }
 
 .table_names {
@@ -338,9 +447,13 @@ a {
 }
 
 .table_images {
+<<<<<<< HEAD
+    height: 30vh;
+=======
     width: auto;
     height: 350px;
     mix-blend-mode: multiply;
+>>>>>>> main
 }
 
 .table_images:hover {
@@ -405,7 +518,11 @@ a {
 /* FAQ */
 
 .faq_container {
+<<<<<<< HEAD
+    margin: 0 20px;
+=======
     margin: 0 200px;
+>>>>>>> main
 }
 
 .all_faq {
@@ -431,7 +548,11 @@ a {
 
 .faq_par {
     text-align: center;
+<<<<<<< HEAD
+    margin: 40px 0 0;
+=======
     margin: 20px 250px 40px;
+>>>>>>> main
     letter-spacing: 2px;
 }
 
@@ -440,7 +561,11 @@ a {
 }
 
 .faq_outro {
+<<<<<<< HEAD
+    margin: 40px 0 0;
+=======
     margin: 40px 250px 20px;
+>>>>>>> main
     text-align: center;
     letter-spacing: 2px;
 }
@@ -487,6 +612,399 @@ h5.black_lotus {
 }
 
 .copyright {
+<<<<<<< HEAD
+    width: fit-content;
+}
+
+/* from */
+
+  .form {   
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 320px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form.active {
+    width: 100vw;
+    opacity: 1;
+    pointer-events: all;
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form_content {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(33, 32, 32);
+    transform: scale(0.5);
+    transition: 0.4s all;
+    width: 50vw;
+  }
+
+  .form_content.active {
+    transform: scale(1);
+  }
+
+  .title {
+    color: #eee;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    color: #eee;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .checkboxing {
+    text-align: left;
+  }
+
+  .ic3 {
+    margin: 30px 0 30px;
+    height: fit-content;
+    color: var(--text-white);
+  }
+
+  .input {
+    background-color: var(--text-grey);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  .cut {
+    background-color: rgb(33, 32, 32); 
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 110px;
+  }
+  
+  .cut-short {
+    width: 50px;
+  }
+  
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+  }
+  
+  .placeholder {
+    color: var(--text-darkestgrey);
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+    color: var(--text-darkestgrey);
+  }
+  
+  .input:focus ~ .placeholder {
+    color: var(--text-white);
+  }
+  
+  .submit {
+    background-color: var(--text-blackgrey);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: var(--text-white);
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submit:active {
+    background-color: var(--text-white);
+    color: var(--text-blackgrey);
+  }
+
+input {
+  margin: 0.4rem;
+}
+
+@media screen and (max-width: 1440px){
+    .works_para {
+        text-align: center;
+    }
+
+    .skills_instr {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .works_para {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    img {
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+    }
+    p {
+        font-size: 14px;
+    }
+    /* header */
+    .upper-header {
+        padding: 0 10px; 
+    }
+    .lower-header > a {
+        padding: 15px 0;
+    }
+    .header-text-bl {
+        display: none;
+    }
+    .upper-header {
+        text-align: end;
+    }
+    .header-text-address {
+        text-align: left;
+    }
+    /* .about_text */
+    .text_about {
+        padding: 0 10px;
+    }
+    .images_panels {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .images_panel {
+        max-width: 200px;
+    }
+    .images {
+        min-width: unset;
+    }
+    /* skills */
+
+    .skills_instr {
+        height: 50vh;
+    }
+    .skills_skills {
+        width: 100vw;
+        right: 0;
+        top: 50px;
+    }
+    .skills_panels {
+        width: 576px;
+        padding: 0;
+    }
+    /* works */
+    .works_para {
+        margin: 0;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .skills_big {
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    .skills_small {
+        font-size: 12px;
+    }
+
+    /* faq */
+
+    .faq_outro {
+        margin: 0;
+        padding-top: 20px;
+        font-size: 14px
+    }
+
+@media screen and (max-width: 576px){
+    p {
+        font-size: 12px;
+    }
+    /* header */
+    .upper-header {
+        padding: 0 10px; 
+        font-size: 10px;
+    }
+    h5.black_lotus {
+        display: none;
+    }
+    .lower-header > a {
+        padding: 15px 0;
+    }
+    .header-text-bl {
+        display: none;
+    }
+    .upper-header {
+        font-size: 10px;
+        text-align: end;
+    }
+    .header-text-address {
+        text-align: left;
+    }
+    /* .about_text */
+    .text_about {
+        columns: 1;
+        padding: 0 10px;
+    }
+    .images_panels {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .images_panel {
+        max-width: 200px;
+    }
+    .images {
+        min-width: unset;
+    }
+
+    .article_heading {
+        font-size: 18px;
+    }
+
+    .article_para {
+        font-size: 14px;
+    }
+    /* tablemast */
+
+    .table_panels {
+        justify-content: center;
+    }
+
+    /* reviews */
+
+    .review_name {
+        font-size: 14px;
+        padding-bottom: 30px;
+        letter-spacing: normal;
+    }
+    .review_panel {
+        padding: 20px;
+    }
+
+    .q_mark {
+        font-size: 50px;
+    }
+
+    /* faq */
+
+    .faq_container {
+        margin: 0   ;
+    }
+
+    .expandable_p {
+        padding: 20px 5px;
+    }
+
+    .faq_par {
+        margin: 0;
+    }
+
+    .faq_outro {
+        margin: 0;
+        padding-top: 20px;
+        font-size: 14px
+    }
+
+    /* skills */
+
+    .skills_skills {
+        width: 100vw;
+        right: 0;
+        top: 50px;
+    }
+    .skills_panels {
+        width: 100vw;
+        padding: 0;
+    }
+    .skills_big {
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    .skills_small {
+        font-size: 12px;
+    }
+    .skills_instr {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    /* works */
+    .works_para {
+        margin: 0;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .works_heading {
+        font-size: 25px;
+    }
+
+    /* footer */
+    .footer_content {
+        justify-content: center;
+    }
+=======
     
     width: fit-content;
+>>>>>>> main
 }
