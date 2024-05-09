@@ -3,7 +3,7 @@ import Form from './Form.js'
 import { useState } from "react";
 
 function Header () {
-  const [modalActive, setModalActive] = useState(true)
+  const [modalActive, setModalActive] = useState(false)
   return (
     <header className="header">
       <div className="upper-header container">
@@ -44,7 +44,7 @@ function Header () {
           <a className='telefon' href="tel:+7(888)777-75-55">+7 (888) 777-75-55</a>
           <button className='book-btn' onClick={() => setModalActive(true)}>Записаться</button>
         </div>
-        <Form active = {modalActive} setActive = {setModalActive}/>
+        <Form active={modalActive} setActive={setModalActive}/>
       </div>
       <nav className="lower-header">
         <Link to="/studio">Студия</Link>

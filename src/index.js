@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { MainPage, StudioPage, ReviewsPage, FAQPage, MastersPage, FormPage } from './App';
+import { MainPage, StudioPage, ReviewsPage, FAQPage, MastersPage } from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
