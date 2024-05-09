@@ -53,10 +53,6 @@ function Cont () {
                             <div className='images_panel'>    
                                 <img className='images_image' src={home_shop02} alt='home_shop02' 
                                     style ={{
-<<<<<<< HEAD
-=======
-                                    width: 200,
->>>>>>> main
                                     height: 178,
                                     }}>
                                 </img>
@@ -72,10 +68,6 @@ function Cont () {
                             <div className="images_panel">
                                 <img className='images_image' src={home_shop03} alt='home_shop03' 
                                     style ={{
-<<<<<<< HEAD
-=======
-                                    width: 200,
->>>>>>> main
                                     height: 178,
                                     }}>
                                 </img>
